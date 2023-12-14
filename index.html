@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style/css.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<script src="https://codepen.io/juliangarnier/pen/75efae7724dbc3c055e918057fc4aca5.js"></script>
+	
+</head>
+<body>
+<div class="animation-wrapper">
+  <div class="sphere-animation">
+    <svg class="sphere" viewBox="0 0 440 440" stroke="rgba(80,80,80,.35)">
+      <defs>
+        <linearGradient id="sphereGradient" x1="5%" x2="5%" y1="0%" y2="15%">
+          <stop stop-color="#373734" offset="0%"/>
+          <stop stop-color="#242423" offset="50%"/>
+          <stop stop-color="#0D0D0C" offset="100%"/>
+          
+        </linearGradient>
+      </defs>
+      <path d="M361.604 361.238c-24.407 24.408-51.119 37.27-59.662 28.727-8.542-8.543 4.319-35.255 28.726-59.663 24.408-24.407 51.12-37.269 59.663-28.726 8.542 8.543-4.319 35.255-28.727 59.662z"/>
+      <path d="M360.72 360.354c-35.879 35.88-75.254 54.677-87.946 41.985-12.692-12.692 6.105-52.067 41.985-87.947 35.879-35.879 75.254-54.676 87.946-41.984 12.692 12.692-6.105 52.067-41.984 87.946z"/>
+      <path d="M357.185 356.819c-44.91 44.91-94.376 68.258-110.485 52.149-16.11-16.11 7.238-65.575 52.149-110.485 44.91-44.91 94.376-68.259 110.485-52.15 16.11 16.11-7.239 65.576-52.149 110.486z"/>
+      <path d="M350.998 350.632c-53.21 53.209-111.579 81.107-130.373 62.313-18.794-18.793 9.105-77.163 62.314-130.372 53.209-53.21 111.579-81.108 130.373-62.314 18.794 18.794-9.105 77.164-62.314 130.373z"/>
+      <path d="M343.043 342.677c-59.8 59.799-125.292 91.26-146.283 70.268-20.99-20.99 10.47-86.483 70.269-146.282 59.799-59.8 125.292-91.26 146.283-70.269 20.99 20.99-10.47 86.484-70.27 146.283z"/>
+      <path d="M334.646 334.28c-65.169 65.169-136.697 99.3-159.762 76.235-23.065-23.066 11.066-94.593 76.235-159.762s136.697-99.3 159.762-76.235c23.065 23.065-11.066 94.593-76.235 159.762z"/>
+      <path d="M324.923 324.557c-69.806 69.806-146.38 106.411-171.031 81.76-24.652-24.652 11.953-101.226 81.759-171.032 69.806-69.806 146.38-106.411 171.031-81.76 24.652 24.653-11.953 101.226-81.759 171.032z"/>
+      <path d="M312.99 312.625c-73.222 73.223-153.555 111.609-179.428 85.736-25.872-25.872 12.514-106.205 85.737-179.428s153.556-111.609 179.429-85.737c25.872 25.873-12.514 106.205-85.737 179.429z"/>
+      <path d="M300.175 299.808c-75.909 75.909-159.11 115.778-185.837 89.052-26.726-26.727 13.143-109.929 89.051-185.837 75.908-75.908 159.11-115.778 185.837-89.051 26.726 26.726-13.143 109.928-89.051 185.836z"/>
+      <path d="M284.707 284.34c-77.617 77.617-162.303 118.773-189.152 91.924-26.848-26.848 14.308-111.534 91.924-189.15C265.096 109.496 349.782 68.34 376.63 95.188c26.849 26.849-14.307 111.535-91.923 189.151z"/>
+      <path d="M269.239 267.989c-78.105 78.104-163.187 119.656-190.035 92.807-26.849-26.848 14.703-111.93 92.807-190.035 78.105-78.104 163.187-119.656 190.035-92.807 26.849 26.848-14.703 111.93-92.807 190.035z"/>
+      <path d="M252.887 252.52C175.27 330.138 90.584 371.294 63.736 344.446 36.887 317.596 78.043 232.91 155.66 155.293 233.276 77.677 317.962 36.521 344.81 63.37c26.85 26.848-14.307 111.534-91.923 189.15z"/>
+      <path d="M236.977 236.61C161.069 312.52 77.867 352.389 51.14 325.663c-26.726-26.727 13.143-109.928 89.052-185.837 75.908-75.908 159.11-115.777 185.836-89.05 26.727 26.726-13.143 109.928-89.051 185.836z"/>
+      <path d="M221.067 220.7C147.844 293.925 67.51 332.31 41.639 306.439c-25.873-25.873 12.513-106.206 85.736-179.429C200.6 53.786 280.931 15.4 306.804 41.272c25.872 25.873-12.514 106.206-85.737 179.429z"/>
+      <path d="M205.157 204.79c-69.806 69.807-146.38 106.412-171.031 81.76-24.652-24.652 11.953-101.225 81.759-171.031 69.806-69.807 146.38-106.411 171.031-81.76 24.652 24.652-11.953 101.226-81.759 171.032z"/>
+      <path d="M189.247 188.881c-65.169 65.169-136.696 99.3-159.762 76.235-23.065-23.065 11.066-94.593 76.235-159.762s136.697-99.3 159.762-76.235c23.065 23.065-11.066 94.593-76.235 159.762z"/>
+      <path d="M173.337 172.971c-59.799 59.8-125.292 91.26-146.282 70.269-20.991-20.99 10.47-86.484 70.268-146.283 59.8-59.799 125.292-91.26 146.283-70.269 20.99 20.991-10.47 86.484-70.269 146.283z"/>
+      <path d="M157.427 157.061c-53.209 53.21-111.578 81.108-130.372 62.314-18.794-18.794 9.104-77.164 62.313-130.373 53.21-53.209 111.58-81.108 130.373-62.314 18.794 18.794-9.105 77.164-62.314 130.373z"/>
+      <path d="M141.517 141.151c-44.91 44.91-94.376 68.259-110.485 52.15-16.11-16.11 7.239-65.576 52.15-110.486 44.91-44.91 94.375-68.258 110.485-52.15 16.109 16.11-7.24 65.576-52.15 110.486z"/>
+      <path d="M125.608 125.241c-35.88 35.88-75.255 54.677-87.947 41.985-12.692-12.692 6.105-52.067 41.985-87.947C115.525 43.4 154.9 24.603 167.592 37.295c12.692 12.692-6.105 52.067-41.984 87.946z"/>
+      <path d="M109.698 109.332c-24.408 24.407-51.12 37.268-59.663 28.726-8.542-8.543 4.319-35.255 28.727-59.662 24.407-24.408 51.12-37.27 59.662-28.727 8.543 8.543-4.319 35.255-28.726 59.663z"/>
+    </svg>
+  </div>
+</div>
+<nav id="navbar" class="">
+<div class="nav-wrapper">
+<ul id="menu">
+      <li><a href="index.html" class="navshadow">Home</a></li>
+	  <li><a href="about.html" class="navshadow">About</a></li>
+	  <li><a href="activities.html" class="navshadow">Activities</a></li>
+	  <li><a href="projects.html"class="navshadow" >Projects</a></li>
+	  <li><a href="/" class="bn3637 bn36" href="mailto:maimunapriyota676@gmail.com" >Send me email!</a></li>
+	  
+</ul>
+</div>
+</nav>
+
+
+<!-- Menu Icon -->
+<div class="menuIcon">
+  <span class="icon icon-bars"></span>
+  <span class="icon icon-bars overlay"></span>
+</div>
+
+
+
+
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<h1>
+Hi,I'm <span>Maisha</span></h1>
+<br>
+<p class="intro">Front-end,Back-end,SQL,PhP.</p>
+<p class="intro1">Currently a third year CSE undergrad, leading Google Developer Student Club besides being passionate about front-end, back-end, UI/UX and SQL! 
+I also dream to expand my career into IT combining both my extraordinary oratory skills and IT expertise. 
+An eloquent, multitasker, with outstanding leadership abilities since high school achieving national prizes in both academics and extracurricular activities.Receipent of EU grant to work on sustainability.</p>
+
+<div id="container">
+      <button>Download my CV!</button>
+    </div>
+
+
+
+<div class="gallery">
+	<div class="gallery__column">
+		        <div class="item">
+				<img src="images/img1.jpeg" class="gallery__image" width=100% height=20%>
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+		
+
+		        <div class="item">
+				<img src="images/img4.jpeg" class="gallery__image" width=100% height=30%>
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+			
+
+	            <div class="item">
+				<img src="images/img9.jpeg"  class="gallery__image">
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+		
+	</div>
+	
+	            <div class="gallery__column">
+		        <div class="item">
+				<img src="images/img3.jpg"  class="gallery__image" width=100% height=23%>
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+
+		
+		        <div class="item">
+				<img src="images/img6.jpeg" width=100% height=27% class="gallery__image">
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+			
+
+                <div class="item">
+				<img src="images/img10.jpg" width=100% height=35% class="gallery__image">
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+
+	</div>
+	
+	<div class="gallery__column">
+                <div class="item">
+				<img src="images/img2.jpeg" class="gallery__image" width=100% height=35%>
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+
+		
+                <div class="item">
+				<img src="images/img7.jpg" width=100% height=25% class="gallery__image">
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+
+                <div class="item">
+				<img src="images/img11.jpg" width=100% height=25% class="gallery__image">
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+
+	</div>
+	
+	<div class="gallery__column">
+                <div class="item">
+				<img src="images/img5.jpeg" width=100% height=20% class="gallery__image">
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+                <div class="item">
+				<img src="images/img8.jpg" width=100% height=30% class="gallery__image">
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+                <div class="item">
+				<img src="images/img12.jpg" width=100% height=35% class="gallery__image">
+				<div class="caption">
+						
+						<p>sed do eiusmod</p>
+					</div>
+				</div>
+
+	</div>
+</div>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4>About</h4>
+                    
+                </div>
+				<br>
+				<br>
+				<br>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>2007-2019</h5>
+                                    <h5 class="subheading">Viqarunnisa Noon School</h5>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Headgirl (representing the institution, keeping liaison between students and teachers. Best Student at National Merit Search. Student Ambassador at US Embassay Dhaka. Finalist at National Robotics Olympiad. 3 times champion in singing category. </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>2020-2021</h5>
+                                    <h5 class="subheading"></h5>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">IT Internship at Youth Opportunities. US, Turkey, Japan and Hungary Government Scholarships.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>2021 Sept - Present</h5>
+                                    <h5 class="subheading">University of Pecs, Hungary</h5>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Current CGPA - 4.61/5.00. International Student Ambassador, EU Project Grant Lead on establishment of circular economy. Google Developer Student Club Lead to encourage students in code practicing, Research & Undergraduate Teaching Assistant.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h5>Interest</h5>
+                                    <h5 class="subheading">Front and Back-end, SQL, PhP, Database</h5>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Built a website for my project using php and sql that fetches data from the database and customers can order and send information to database using the website.</p>
+                                </div>
+                            </div>
+                        </li>
+                       </div>
+                      
+                    </ul>
+                </div>
+            </div>
+      
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+	<div class="post-item1">
+<h6> I love to talk about IT, Sustainability, Innovation and my pets! I am also a singer and photographer. </h6>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ <h4> Web Projects </h4>
+ <div class="row">
+ <div class="column" >
+  <div class="post-item">
+  <div class="displayimage">
+  <img class="imgradius" src="images/webpg2.png" width= 100% height= 60%>
+  </div>
+  <br>
+    <h3><span style="color:#96d36f">HARVEST GREENER</h3>
+    <br>
+	<br>
+	<br>
+    <p class="cratepara">A B2B marketplace for farmers to showcase their production.</p>
+	<br>
+	<button><a href="https://github.com/maishapriyota/harvesthub.github.io" class="button button4" </a>Learn More</button>
+	<br>
+  </div>
+  </div>
+  
+
+  <div class="column" >
+  <div class="post-item">
+  <div class="displayimage">
+  <img  class="imgradius" src="images/webpg1.png" width= 100% height= 40% >
+  </div>
+  <br>
+    <h3 ><span style="color:#d3c06f">CRUISE SHIP</h3>
+	<br>
+	<br>
+	<br>
+    <p class="cratepara">A cruise holiday website designed for booking and exploring.</p>
+	<br>
+	<button><a href="https://github.com/maishapriyota/cruise_travel" class="button button4" ></a>Learn More</button>
+  </div>
+  </div>  
+ </div>
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="contact-form">
+    <h2><span style="color:white">Send Me a Message!</span></h2>
+    <form method="post" action="process_message.php">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" name="submit">Send</button>
+    </form>
+</div>
+<br>
+<div class="footer-basic">
+        <footer>
+            <div class="social">
+			<a href="https://www.facebook.com/maimunapriyota"><img src="images/facebook.png" width=20px height=20px></a>
+			<a href="https://www.linkedin.com/in/maishamaimuna2"><img src="images/linkedin.png" width=20px height=20px></a>
+			<a href="https://github.com/maishapriyota"><img src="images/github.png" width=20px height=20px></a>
+			<a href="https://www.instagram.com/maieshapriyota/"><img src="images/instagram.png" width=20px height=20px></a>
+			</div>
+            
+            <p class="copyright">MAISHA MAIMUNA © 2023</p>
+        </footer>
+    </div>
+
+</body>
+</html>
+<link rel="stylesheet" href="css.css">
+<script type="text/javascript" src="script.js"></script>
